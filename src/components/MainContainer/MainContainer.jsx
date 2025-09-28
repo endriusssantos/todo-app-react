@@ -1,5 +1,5 @@
 import moonIcon from "../../assets/icon-moon.svg";
-import InputContainer from "../inputContainer/inputContainer";
+import InputContainer from "../InputContainer/InputContainer";
 
 const MainContainer = () => {
   return (
