@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+.bg-light-mobile {
+  background-image: url("./assets/bg-mobile-light.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
