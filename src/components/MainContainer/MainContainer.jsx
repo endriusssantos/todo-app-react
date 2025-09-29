@@ -2,7 +2,7 @@ import moonIcon from "../../assets/icon-moon.svg";
 
 const MainContainer = ({ children }) => {
   return (
-    <div className="bg-light-mobile min-h-screen bg-[#e4e5f1ff] font-[Josefin_Sans]">
+    <div className="bg-light-mobile min-h-screen bg-[#e4e5f1ff] pb-5 font-[Josefin_Sans]">
       <div className="flex items-center justify-between px-10 pt-10">
         <h1 className="text-4xl font-semibold tracking-[0.6rem] text-white">
           TODO
