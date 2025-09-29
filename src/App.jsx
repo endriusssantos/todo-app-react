@@ -1,7 +1,8 @@
+import FilterContainer from "./components/FilterContainer/FilterContainer";
 import InputContainer from "./components/InputContainer/InputContainer";
 import MainContainer from "./components/MainContainer/MainContainer";
 import Task from "./components/Task/Task";
-import TaskContainer from "./components/TaskContainer/TAskContainer";
+import TaskContainer from "./components/TaskContainer/TaskContainer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TaskContainer>
         <Task />
       </TaskContainer>
+      <FilterContainer />
     </MainContainer>
   );
 }
