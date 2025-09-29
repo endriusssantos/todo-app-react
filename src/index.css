@@ -1,8 +1,29 @@
 @import "tailwindcss";
 
-.bg-light-mobile {
+.bg-light-responsive {
   background-image: url("./assets/bg-mobile-light.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
+}
+
+@media (min-width: 768px) {
+  .bg-light-responsive {
+    background-image: url("./assets/bg-desktop-light.jpg");
+    background-size: cover;
+  }
+}
+
+.bg-dark-responsive {
+  background-image: url("./assets/bg-mobile-dark.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@media (min-width: 768px) {
+  .bg-dark-responsive {
+    background-image: url("./assets/bg-desktop-dark.jpg");
+    background-size: cover;
+  }
 }
