@@ -6,6 +6,7 @@ import TaskContainer from "./components/TaskContainer/TaskContainer";
 
 function App() {
   const [tasks, setTasks] = useState([]);
+  const [filter, setFilter] = useState("all");
 
   const addTask = (text) => {
     if (!text.trim()) return;
@@ -35,8 +36,9 @@ function App() {
         tasks={tasks}
         onToggle={toggleTask}
         onDelete={deleteTask}
+        filter={filter}
       />
-      <FilterContainer />
+      <FilterContainer setFilter={setFilter} filter={filter} />
     </MainContainer>
   );
 }
